@@ -3,7 +3,7 @@
 
 In this guide:
   - [Introduction](#introduction)
-  - [IoT devices](#iot-devices): Thingsee IoT sensors
+  - [IoT devices](#iot-devices): Simulated Data
   - [PHASE 1](#phase-1): Create a web application
   - [PHASE 2](#phase-2): Visualize your data
   - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
@@ -26,20 +26,11 @@ Video tutorial, including simulated data, will be available December 2018.
 
 ## IoT devices
 
-In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be pre-configured to send data to any cloud. For the purpose of this lab sensors are pre-configured to send data to Watson IoT Platform, part of IBM Cloud. 
+In this lab we are going to use simulated sensor data. We are going to simulate three types of sensors. Environment, distance and presence. 
+  - Environment sensor measures temperature, humidity, air pressure, light level and movement.
+  - Distance sensor measures the sensor's distance to a surface.
+  - Presence sensor measures the presence of people. 
 
-<img src="/images/Sensors1.png" width="80%" height="80%">
-
-There are three types of sensors distance, environment and presence. The gateway collects the data to send it to the cloud. 
-
-Thingsee **DISTANCE** is a wireless IoT sensor for measuring container fill rates, asset presence on location and more.
-Thingsee distance measures the sensor's distance to a surface in real time. You can use the sensor for various facility management applications, asset tracking, parking facility solutions and more.
-
-Thingsee **ENVIRONMENT** sensor measures temperature, humidity, air pressure, light level, movement and impacts. You can also detect magnets and even get device location using network RSSI location.
-
-Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence through the facility. Thingsee Presence IoT sensor measures the presence of people in real time. You can use the sensor for facility management and security applications, for example.
-
-<img src="/images/Sensors.png" width="90%" height="90%">
 
 # PHASE 1
 ## Create an application
