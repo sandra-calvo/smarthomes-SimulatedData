@@ -263,10 +263,15 @@ Add your username, password and workspace ID.
 **Important** Check the URL of your Watson Assistant service. The assistant node calls the service located in US by default. If your bot URL is in UK, Sydney or Germany uncheck the "Use Default Service Endpoint" box and in the Service Enpoint write the following:
 
   Dallas: https://gateway.watsonplatform.net/assistant/api
+  
   Washington, DC: https://gateway-wdc.watsonplatform.net/assistant/api
+  
   Frankfurt: https://gateway-fra.watsonplatform.net/assistant/api
+  
   Sydney: https://gateway-syd.watsonplatform.net/assistant/api
+  
   Tokyo: https://gateway-tok.watsonplatform.net/assistant/api
+  
   London: https://gateway.watsonplatform.net/assistant/api
 
 You can see where your service was created in the URL of the credentials you copied in Step 8.
