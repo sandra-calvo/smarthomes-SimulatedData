@@ -45,7 +45,7 @@ Enter a name for your application, for example: *mysmarthome* (host will automat
 Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progress click on the  _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
 
-<img src="/images/App3b.png" width="20%" height="20%">
+<img src="/images/App3b.png" width="10%" height="10%">
 
 *Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
 
@@ -75,7 +75,7 @@ This starter kit already has a simulation data flow. When you click in the "Send
 
 Double click in the blue "Send data" node. Setup the node to send data every minute as shown in the image below. Then click on  Done.
 
-<img src="/images/simulation4.png" width="50%" height="50%">
+<img src="/images/simulation4.png" width="40%" height="40%">
 
 Start sending data by clicking in the left side of the Send Data node. You will see the data flowing in the debug tab on the right side. 
 
@@ -135,7 +135,7 @@ Paste the text you copied from the file.
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
 The code will create a new tab called Environment with a flow like this:
 
-<img src="/images/simulations5.png" width="80%" height="80%">
+<img src="/images/simulations5.png" width="60%" height="60%">
 
 Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
@@ -143,7 +143,7 @@ Deploy your application changes from the **Deploy** button on the top right side
 ### Step 4. Check your web app UI! 
 The dashboard nodes added an UI to our Node-RED application. 
 
-<img src="/images/webApp1.png" width="80%" height="80%">
+<img src="/images/simulation6.png" width="60%" height="60%">
 
 To access the UI go to:
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
