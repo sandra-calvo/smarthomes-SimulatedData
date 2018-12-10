@@ -111,7 +111,7 @@ After few seconds you will see the new nodes in your Node-RED palette.
 ### Step 3: Import the Node-RED application flow
 In this section we will build a simple flow to connect with our sensor data and create a web visualization. 
 
-Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualizationUI_simulatedData.json) 
+Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
