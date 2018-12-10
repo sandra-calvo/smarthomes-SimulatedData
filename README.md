@@ -322,7 +322,7 @@ This flow gets weather information from Open Weather Map API. The location comes
 
 **Remember** Connect the node "Weather response" with the node "Bot response".
 
-<img src="/images/completeflow.png" width="80%" height="80%">
+<img src="/images/simulation9.png" width="80%" height="80%">
 
 We need to edit the yellow Open Weather Map node and add the API key. 
 
@@ -345,10 +345,9 @@ Drag the weather widget to the Assistant above so it's part of the same tab than
 
 <img src="/images/widget2.png" width="50%" height="50%">
 
-
 Click on _Deploy_ and go to the UI to check the changes! Now your UI should look like this:
 
-<img src="/images/webApp3.png" width="70%" height="70%">
+<img src="/images/simulation8.png" width="70%" height="70%">
 
 **Congrats!** You finished the lab. :clap:
 Here, take a :lollipop:. You deserve it!! 
