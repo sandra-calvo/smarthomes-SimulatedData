@@ -45,7 +45,7 @@ Enter a name for your application, for example: *mysmarthome* (host will automat
 Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progress click on the  _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
 
-<img src="/images/App3b.png" width="10%" height="10%">
+<img src="/images/App3b.png" width="20%" height="20%">
 
 *Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
 
