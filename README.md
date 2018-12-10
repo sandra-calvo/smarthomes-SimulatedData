@@ -313,7 +313,7 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 Import the flow to Node-RED by simply clicking on the 3 white lines on the top right corner of the Node-RED window. 
-Import -> Clipboard. **Paste the content to the Flow 2 tab.**
+Import -> Clipboard. 
 This is the flow we are importing:
 
 <img src="/images/flow27.png" width="70%" height="70%">
@@ -324,7 +324,7 @@ This flow gets weather information from Open Weather Map API. The location comes
 
 <img src="/images/simulation9.png" width="80%" height="80%">
 
-We need to edit the yellow Open Weather Map node and add the API key. 
+We need to edit the yellow Open Weather Map node and add the API key. I recommend you get your own API key from https://openweathermap.org/. In the meantime use the following API key:
 
     API KEY: 3a1ac87a062142df79f4177302bd7ab9
     
