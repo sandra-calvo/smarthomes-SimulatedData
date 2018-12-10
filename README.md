@@ -5,10 +5,9 @@ In this guide:
   - [Introduction](#introduction)
   - [IoT devices](#iot-devices): Simulated Data
   - [PHASE 1](#phase-1): Create a web application
-  - [PHASE 2](#phase-2): Data simulation
-  - [PHASE 3](#phase-3): Visualize your data
-  - [PHASE 4](#phase-4): Add AI powered chatbot to your application using Watson Assistant 
-  - [PHASE 5](#phase-5): Connect with external APIs using Weather Insights
+  - [PHASE 2](#phase-2): Visualize your data
+  - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
+  - [PHASE 4](#phase-4): Connect with external APIs using Weather Insights
 
   
   
@@ -43,13 +42,13 @@ In a browser navigate to https://bluemix.net
 Select '_LOG IN_' then enter your login information and press 'SIGN IN'.  You should see your dashboard. 
 Select the '_CATALOG_' view.
 ![](/images/App1.png?raw=true)
-Locate the Node-RED starter service, under Starter Kit, and click on it. 
+Locate the Internet of things Platform starter service, under Starter Kit, and click on it. This starter kit contains a Cloudant dabatase, SDK for Node.js and the IoT platform. 
 
-<img src="/images/App2.png" width="30%" height="30%">
+<img src="/images/simulation1.png" width="30%" height="30%">
 
 Enter a name for your application, for example: *mysmarthome* (host will automatically be completed). The hostname must be unique on IBM Cloud, so please if you use the example name add your initials or a number. Be creative and try to make a unique name then click '_CREATE_'. 
 
-<img src="/images/App3.png" width="100%" height="100%">
+<img src="/images/simulation2.png" width="100%" height="100%">
  
 Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progress click on the  _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
@@ -78,6 +77,16 @@ Now click Go to your Node-RED flow editor to open the flow editor.
 
 When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow. 
 
+This starter kit already has a simulation data flow. When you click in the "Send data" node you activate the data flow. Right now it only sends one data set per click, so let's transform the flow to send data every minute.
+
+<img src="/images/simulation3.png" width="70%" height="70%">
+
+Double click in the blue "Send data" node. Setup the node to send data every minute as shown in the image below. Then click on  Done.
+
+<img src="/images/simulation4.png" width="70%" height="70%">
+
+Start sending data by clicking in the left side of the Send Data node. You will see the data flowing in the debug tab on the right side. 
+
 ### Step 2: Add new nodes to the Node-RED palette
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
@@ -104,12 +113,7 @@ After few seconds you will see the new nodes in your Node-RED palette.
 
 **Remember to repeat this process to install node-red-node-openweathermap package.**
 
-
 # PHASE 2
-## Data simulation
-
-
-# PHASE 3
 ## Visualize your data
 
 ### Step 3: Import the Node-RED application flow
@@ -194,7 +198,7 @@ Click on the color and select the main color for your web app. You can change th
 Now you can observe your Smart Home dashboard. :+1:
 
 
-# PHASE 4
+# PHASE 3
 ## Add AI-powered chatbot to your application using Watson Assistant
 
 In this phase we are going to add a chatbot to our application, powered by Watson Assistant. Through the chatbot you will be able to get information about the sensor data in your "Smart Home" environment. 
@@ -309,7 +313,7 @@ http://yourAppName.eu-gb.mybluemix.net/ui - UK
 <img src="/images/webApp2.png" width="60%" height="60%">
 
 
-# PHASE 5
+# PHASE 4
 ## Connect with external APIs like Weather
 
 You can connect your application with any available API. In this case we are going to connect Watson Assistant to the weather data. This way our bot will be able to tell us the weather anywhere in the world. 
