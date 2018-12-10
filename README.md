@@ -3,7 +3,6 @@
 
 In this guide:
   - [Introduction](#introduction)
-  - [IoT devices](#iot-devices): Simulated Data
   - [PHASE 1](#phase-1): Create a web application
   - [PHASE 2](#phase-2): Visualize your data
   - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
@@ -23,13 +22,6 @@ Video tutorial, including simulated data, will be available December 2018.
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). A full-stack cloud platform with over 170 products and services covering data, serverless, containers, AI, IoT and blockchain. https://www.ibm.com/cloud/
 
 <img src="/images/IBMCloud.png" width="90%" height="90%">
-
-## IoT devices
-
-In this lab we are going to use simulated sensor data. We are going to simulate three types of sensors. Environment, distance and presence. 
-  - Environment sensor measures temperature, humidity, air pressure, light level and movement.
-  - Distance sensor measures the sensor's distance to a surface.
-  - Presence sensor measures the presence of people. 
 
 # PHASE 1
 ## Create an application
@@ -111,7 +103,7 @@ This will prompt a window to confirm the installation. Click on install and wait
 
 After few seconds you will see the new nodes in your Node-RED palette.
 
-**Remember to repeat this process to install node-red-node-openweathermap package.**
+**Remember to repeat this process to install node-red-node-openweathermap package.** :partly_sunny:
 
 # PHASE 2
 ## Visualize your data
