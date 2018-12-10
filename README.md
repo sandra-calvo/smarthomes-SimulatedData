@@ -75,7 +75,7 @@ This starter kit already has a simulation data flow. When you click in the "Send
 
 Double click in the blue "Send data" node. Setup the node to send data every minute as shown in the image below. Then click on  Done.
 
-<img src="/images/simulation4.png" width="70%" height="70%">
+<img src="/images/simulation4.png" width="50%" height="50%">
 
 Start sending data by clicking in the left side of the Send Data node. You will see the data flowing in the debug tab on the right side. 
 
@@ -111,7 +111,7 @@ After few seconds you will see the new nodes in your Node-RED palette.
 ### Step 3: Import the Node-RED application flow
 In this section we will build a simple flow to connect with our sensor data and create a web visualization. 
 
-Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json) 
+Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualizationUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
@@ -123,7 +123,8 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
-Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
+
+Open a new flow tab and import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
 <img src="/images/App27.png" width="50%" height="50%">
 
@@ -134,30 +135,7 @@ Paste the text you copied from the file.
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
 The code will create a new tab called Environment with a flow like this:
 
-<img src="/images/flow23.png" width="80%" height="80%">
-
-<img src="/images/flow24.png" width="60%" height="60%">
-
-You will need to do some editing. Double click on the blue IBM IoT node and click on the pen icon. 
-
-<img src="/images/iot1.png" width="40%" height="40%">
-
-The sensors are pre-configured to send data to Watson IoT platform. At this moment all sensors send data to a service created by me (Sandra). Here the credentials to read the data coming from the sensors:
-
-    API KEY: a-jwql3u-qmhoi8sdzy
-    API TOKEN: OSxT5QVJYxItsV*K4y
-
-Enter the credentials above to start reading the data from the IoT platform. Then click on _Update_ and _Done_.
-
-<img src="/images/iot2.png" width="40%" height="40%">
-
-To save data into a database double click on blue Environment node. 
-
-<img src="/images/flow25.png" width="60%" height="60%">
-
-The service will automatically connect with your database, included in the Node-RED starter kit, and the sensor data will be stored in a Cloudant database. Then click _Done_.
-
-<img src="/images/db0.png" width="40%" height="40%">
+<img src="/images/simulations5.png" width="80%" height="80%">
 
 Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
