@@ -12,12 +12,11 @@ In this guide:
   
   #### Prerequisites
 - IBM Cloud account
-  - Create a free account www.bluemix.net
+  - Create a free account https://cloud.ibm.com/
 
   ## Introduction 
 
 This lab was created for Smart Homes Mimmitkoodaa workshop fall 2018. The idea is to show how to create a smart home application that uses artificial intelligence and connects with external APIs. 
-Video tutorial, including simulated data, will be available December 2018.
 
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). A full-stack cloud platform with over 170 products and services covering data, serverless, containers, AI, IoT and blockchain. https://www.ibm.com/cloud/
 
@@ -30,8 +29,8 @@ Video tutorial, including simulated data, will be available December 2018.
 
 **Node-RED** is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single click.
 
-In a browser navigate to https://bluemix.net
-Select '_LOG IN_' then enter your login information and press 'SIGN IN'.  You should see your dashboard. 
+In a browser navigate to https://cloud.ibm.com/
+Select '_LOG IN_' with your IBM id (your email). After login you should see your IBM Cloud dashboard. 
 Select the '_CATALOG_' view.
 ![](/images/App1.png?raw=true)
 Locate the Internet of things Platform starter service, under Starter Kit, and click on it. This starter kit contains a Cloudant dabatase, SDK for Node.js and the IoT platform. 
@@ -111,7 +110,7 @@ After few seconds you will see the new nodes in your Node-RED palette.
 ### Step 3: Import the Node-RED application flow
 In this section we will build a simple flow to connect with our sensor data and create a web visualization. 
 
-Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
+Copy the content of the **visualizationUI_simulatedData.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
@@ -124,7 +123,7 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 
-Open a new tab in Node-RED by clicking on the **+** sign. 
+Open a new tab in Node-RED by clicking on the '+' sign. 
 
 <img src="/images/newflow.png" width="40%" height="40%">
 
@@ -197,7 +196,6 @@ In the home tab you have videos and tutorials on how to get started building dia
 Let's move to the Skills tab.
 
 <img src="/images/WA5b.png" width="50%" height="50%">
- 
 
 The natural-language processing happens inside a skill, which is a container for all of the artifacts that define the conversation flow for an application.
 
@@ -231,14 +229,14 @@ Click on the 3 dots in your IoT-Assistant to open a menu and then click on View 
 
 <img src="/images/WA-2.png" width="40%" height="40%">
 
-Copy the credentials and save them for later. You will need the Workspace ID (skill), username ('apikey') and password. 
+Copy the credentials and save them for later. You will need the Workspace ID (skill), username ('apikey'), password and URL. 
 
 <img src="/images/WA-3.png" width="60%" height="60%">
 
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of the **assistant_UI.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistantUI_simulatedData.json) 
+Copy the content of the **assistantUI_simulatedData.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistantUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
     
@@ -262,25 +260,28 @@ Add your username, password and workspace ID.
 
 <img src="/images/WA12.png" width="40%" height="40%">
 
-Finally we need to confirm that the blue IoT node is reading the data correctly. Double click on the blue IBM IoT node and click on the pen icon. If you see the credentials all should work, if the credentials are missing add the API key and API token shown below.  
+**Important** Check the URL of your Watson Assistant service. The assistant node calls the service located in US by default. If your bot URL is in UK, Sydney or Germany uncheck the "Use Default Service Endpoint" box and in the Service Enpoint write the following:
 
-    API KEY: a-jwql3u-qmhoi8sdzy
-    API TOKEN: OSxT5QVJYxItsV*K4y
+  Dallas: https://gateway.watsonplatform.net/assistant/api
+  Washington, DC: https://gateway-wdc.watsonplatform.net/assistant/api
+  Frankfurt: https://gateway-fra.watsonplatform.net/assistant/api
+  Sydney: https://gateway-syd.watsonplatform.net/assistant/api
+  Tokyo: https://gateway-tok.watsonplatform.net/assistant/api
+  London: https://gateway.watsonplatform.net/assistant/api
+
+You can see where your service was created in the URL of the credentials you copied in Step 8.
 
 Once you have edited all the nodes click on the _Deploy_ button to save the changes in your application.
 
 ### Step 10. Check the final result! 
 Go back to the UI and talk with your bot! 
-Change the tab by clicking on the three lines and going to the Assistant tab.
-
-<img src="/images/tab.png" width="10%" height="10%">
 
 You can ask the bot about IoT and even ask what is the temperature in the room. The bot is connected to the sensors in your "Smart Home" environment. 
 
 Remember, to go back to your web app (in UK region)
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
 
-<img src="/images/webApp2.png" width="60%" height="60%">
+<img src="/images/simulation7.png" width="60%" height="60%">
 
 
 # PHASE 4
