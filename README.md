@@ -300,7 +300,7 @@ If you have an upgraded account you can use the Weather Company service. Feel fr
 For this lab we are using Open Weather Map data https://openweathermap.org/. 
 Note: An API key is required to use these nodes. You can register and obtain your own API key, or use the one available for this workshop. 
 
-Copy the content of the **weather_UI.json** file. Open the file URL. [Weather UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/weather_UI.json) 
+Copy the content of the **weather_UI.json** file. Open the file URL. [Weather UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/weatherUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
     
