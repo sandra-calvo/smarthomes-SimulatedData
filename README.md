@@ -236,7 +236,7 @@ Copy the credentials and save them for later. You will need the Workspace ID (sk
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of the **assistantUI_simulatedData.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistantUI_simulatedData.json) 
+Copy the content of the **assistantUI_simulatedData.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/assistantUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
     
@@ -300,7 +300,7 @@ If you have an upgraded account you can use the Weather Company service. Feel fr
 For this lab we are using Open Weather Map data https://openweathermap.org/. 
 Note: An API key is required to use these nodes. You can register and obtain your own API key, or use the one available for this workshop. 
 
-Copy the content of the **weather_UI.json** file. Open the file URL. [Weather UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/weather_UI.json) 
+Copy the content of the **weather_UI.json** file. Open the file URL. [Weather UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/weather_UI.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
     
