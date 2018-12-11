@@ -236,7 +236,7 @@ Copy the credentials and save them for later. You will need the Workspace ID (sk
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of the **assistantUI_simulatedData.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/assistantUI_simulatedData.json) 
+Copy the content of the **assistantUI_simulatedData.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/botUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
     
