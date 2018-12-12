@@ -251,7 +251,7 @@ Use the keyboard shortcuts to select all content and copy it.
 Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window. Import -> Clipboard. Paste the content in the Flow 2 tab. 
 This is the flow we are importing:
 
-<img src="/images/flow21.png" width="100%" height="100%">
+<img src="/images/simulation10.png" width="100%" height="100%">
 
 Time to do some editing! :smiley:
 
