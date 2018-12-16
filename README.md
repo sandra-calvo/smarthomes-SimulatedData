@@ -25,7 +25,7 @@ This lab was created for Smart Homes Mimmitkoodaa workshop fall 2018. The idea i
 
 Check the video tutorial if you get stuck :smiley:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yAXEwIFDYhE?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[linkname](https://www.youtube.com/embed/yAXEwIFDYhE?start=1)
 
 # PHASE 1
 ## Create an application
