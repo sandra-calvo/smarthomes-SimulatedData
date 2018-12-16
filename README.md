@@ -25,7 +25,7 @@ This lab was created for Smart Homes Mimmitkoodaa workshop fall 2018. The idea i
 
 Check the video tutorial if you get stuck :smiley:
 
-[linkname](https://www.youtube.com/embed/yAXEwIFDYhE?start=1)
+[![Video Tutorial](http://i.imgur.com/Ot5DWAW.png)](https://www.youtube.com/embed/yAXEwIFDYhE?start=1 "Video Tutorial")
 
 # PHASE 1
 ## Create an application
